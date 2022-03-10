@@ -1,4 +1,4 @@
 <?php
-	echo "Hello World!";
-	echo "Hello GIT";
+	$title = "Hello World!";
+	echo $title." Hello GIT";
 ?>

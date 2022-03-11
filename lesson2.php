@@ -12,22 +12,22 @@ echo "Reszta od dzielenia = ".($a % $b)."<br>";
 echo "Okruglenie :". round($a / $b,2)."<br>";
 
 
-$a = $a + $a;
+$a = $a + $a; //22
 echo $a."<br>";
-$a += $a;
+$a += $a; //44
 echo $a."<br>";
-$a -= 10;
+$a -= 10; //34
 echo $a."<br>";
-$a *= 10;
+$a *= 10; //340
 echo $a."<br>";
-$a /= 2;
+$a /= 2; //170
 echo $a."<br>";
-$a++;
+$a++;  //postincrimination 171
 echo $a."<br>";
-++$a;
+++$a; // preincrimination 172
 echo $a."<br><br><br>";
 
-echo pow(5, 3)."<br>";
+echo pow(5, 3)."<br>"; //5*5*5
 
-echo sqrt(144);
+echo sqrt(144); //square root of a number
 ?>

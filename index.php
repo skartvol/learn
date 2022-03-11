@@ -1,7 +1,7 @@
 <a href="lesson1.php">Lesson 1</a><br>
-<a href="lesson1.php">Lesson 2</a><br>
-<a href="lesson1.php">Lesson 3</a><br>
-<a href="lesson1.php">Lesson 4</a><br>
+<a href="lesson2.php">Lesson 2</a><br>
+<a href="lesson3.php">Lesson 3</a><br>
+<a href="lesson4.php">Lesson 4</a><br>
 <a href="lesson1.php">Lesson 5</a><br>
 <a href="lesson1.php">Lesson 6</a><br>
 <a href="lesson1.php">Lesson 7</a><br>

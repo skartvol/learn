@@ -11,4 +11,14 @@
 	echo "$text, $int, $float, $bool";
 	echo "<br>";
 	var_dump($bool);
+	echo "<br>";
+
+	//is_int() - the variable is integet type
+	//is_numeric() - the variable can be converted to integer
+
+	$textNum = "45";
+	var_dump(is_int($textNum));
+	echo "<br>";
+	var_dump(is_numeric($textNum));
+	echo "<br>";
 ?>

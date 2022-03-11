@@ -1,3 +1,4 @@
+<a href="index.php">MAIN MENU</a><hr>
 <?php
 $a = 11;
 $b = 8;

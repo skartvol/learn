@@ -45,7 +45,7 @@ echo "NOT : ";
 var_dump(!$a);
 echo "<hr>";
 
-echo "Result : ";
+echo "Result (true or false and false) : ";
 var_dump(true or false and false);
 echo "<br>";
 var_dump(true || false and false);

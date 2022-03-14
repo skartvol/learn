@@ -29,6 +29,8 @@
         $num = $_GET['num'];
 
         do {
+            if($num == 5)
+            break;
             echo $num."<br>";
             $num--;
         } while ($num > 0);
@@ -39,6 +41,9 @@
         $num = $_GET['num'];
 
         for($num; $num > 0; $num--) {
+            if($num % 2 == 1) {
+                continue;
+            }
             echo $num."<br>";
         }
 

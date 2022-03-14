@@ -29,9 +29,11 @@
         $num = $_GET['num'];
 
         do {
-            if($num == 5)
-            break;
+            if($num % 2 == 1)
+                goto jump;
             echo $num."<br>";
+            $num--;
+            jump:
             $num--;
         } while ($num > 0);
 

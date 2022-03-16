@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Lesson #7</title>
+        <title>Lesson #8</title>
     </head>
     <body>
     <a href="index.php">MAIN MENU</a><hr>

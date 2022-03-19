@@ -16,3 +16,5 @@
 <a href="lesson16.php">Lesson 16</a><br>
 <a href="lesson17.php">Lesson 17</a><br>
 <a href="lesson18.php">Lesson 18</a><br>
+<a href="lesson19.php">Lesson 19</a><br>
+<a href="lesson20.php">Lesson 20</a><br>

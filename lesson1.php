@@ -18,8 +18,8 @@
 	//is_numeric() - the variable can be converted to integer
 
 	$textNum = "45";
-	var_dump(is_int($textNum));
+	var_dump(is_int($textNum)); //false
 	echo "<br>";
-	var_dump(is_numeric($textNum));
+	var_dump(is_numeric($textNum)); //true
 	echo "<br>";
-?>
+?>	

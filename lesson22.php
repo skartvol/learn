@@ -3,14 +3,25 @@ abstract class Person {
 
     public $name;
     public $age;
+    public $personSey = "Hi!";
+    private static $population = 0;
 
     public function __construct($name,$age)
     {
         $this->name = $name;
         $this->age = $age;
+        self::$population++;
     }
 
     abstract public function getPersonInfo();
+
+    public static function getPopulation() {
+        return "Population: ".self::$population;
+    }
+
+    public function sey() {
+        return $this->personSey . "<br>";
+    }
 }
 
 interface WorkInterface {
@@ -30,7 +41,7 @@ class Military extends Person implements FireInterface{
 
     public function __construct($name,$age) {
         parent::__construct($name, $age);
-        echo "Ser, yes ser!<br><br>";
+        $this->personSey = "Ser, yes ser!<br><br>";
     }
 
     public function getPersonInfo() {
@@ -59,7 +70,7 @@ class Teacher extends Person implements WorkInterface {
     
     public function __construct($name, $age) {
         parent::__construct($name, $age);
-        echo "I will teach you<br><br>";
+        $this->personSey = "I will teach you<br><br>";
     }
 
     public function getPersonInfo() {
@@ -91,15 +102,18 @@ $personThree->goToWork();
 
 <html>
     <head>
-        <title>Lesson #21</title>
+        <title>Lesson #22</title>
     </head>
     <body>
     <a href="index.php">MAIN MENU</a><hr>
 
-    <h3>Abstruct and interface</h3>
+    <h3>Static</h3>
     <?php
+        echo $personTwo->sey();
         echo $personTwo->getPersonInfo();
+        echo $personThree->sey();
         echo $personThree->getPersonInfo();
+        echo Military::getPopulation();
     ?>
     </body>
 </html>
